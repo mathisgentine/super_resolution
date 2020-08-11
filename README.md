@@ -11,8 +11,9 @@ Most of the research work has been done on `Dissertation - Colab.ipynb`. All fun
 To get a prediction a full image, use either `predict.py` or `predict_patchify.py`.
 One simply needs to create a folder named **`{zoom_type}-{number_of_tiles}`** (where "zoom_type" refers to either **4x20x** or **20x100x**) and place an `export.pkl` file inside (obtained by running `learn.export()` on a model `learn`). We profile two export files from the training of a **U-Net - Classic - Patchify** model.
 
-**4x20x-100** export : https://www.dropbox.com/s/qkyoegzwa2m3mky/export.pkl?dl=0
-**20x100x-100** export : https://www.dropbox.com/s/qkyoegzwa2m3mky/export.pkl?dl=0
+**4x20x-100** export : https://www.dropbox.com/sh/ni222ln43ngw24c/AAApJpnegw60DIE2d3DuYEWfa?dl=0
+
+**20x100x-100** export : https://www.dropbox.com/sh/hrw82v9rdf34wsk/AACXqEBX5m6ZBcwaWqWG9ZKna?dl=0
 
 It takes respectively 2:43 & 9:55 minutes to predict the output of one full image, on my CPU (2,7 GHz Intel Core i5).
 
