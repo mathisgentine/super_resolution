@@ -11,3 +11,5 @@ One simply needs to create a folder named **`{zoom_type}-{number_of_tiles}`** (w
 
 It takes respectively 2:43 & 9:55 minutes to predict the output of one full image, on my CPU (2,7 GHz Intel Core i5).
 Outputs on a **20x100x** test image are available to download. We show a reduced, png-version comparison below, where the left image was generated with `predict.py` and the right one with `predict_patchify.py` (with the same `export.pkl` file):
+
+![Comparison](https://github.com/mathisgentine/super_resolution/blob/master/Output_comparison.png)
