@@ -4,7 +4,8 @@ Data can be found here : https://www.dropbox.com/sh/24lym7r4h2uejb2/AAC_jp9W64d0
 
 ----
 
-Most of the research work has been done on `Dissertation - Colab.ipynb`. All functions mentioned in the write-up can be found there.
+Most of the research work has been done on `Dissertation - Colab.ipynb`. All functions mentioned in the write-up can be found there. 
+Stain normalization function is under the **Staintools** section. It is named `transform_normalize_one2one`.
 
 `image_slicer_tool.py` and `patchify_tool.py` provide a way to respectively perform the **slicing** and **patchify** splitting explained in part 3.4.
 
@@ -22,7 +23,5 @@ Outputs on a **20x100x** test image are available to download (pos020.tif & patc
 We show a reduced, png-version comparison below, where the left image was generated with `predict.py` and the right one with `predict_patchify.py` (with the same `export.pkl` file):
 
 ![Comparison](https://github.com/mathisgentine/super_resolution/blob/master/Comparison.png)
-
-Stain normalization function is found in the Colab notebook, under the **Staintools** section. It is name `transform_normalize_one2one`.
 
 Library requirements are given in `requirements.txt`.
