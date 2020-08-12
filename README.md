@@ -23,4 +23,6 @@ We show a reduced, png-version comparison below, where the left image was genera
 
 ![Comparison](https://github.com/mathisgentine/super_resolution/blob/master/Comparison.png)
 
+Stain normalization function is found in the Colab notebook, under the **Staintools** section. It is name `transform_normalize_one2one`.
+
 Library requirements are given in `requirements.txt`.
