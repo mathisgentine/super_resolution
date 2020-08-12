@@ -22,3 +22,5 @@ Outputs on a **20x100x** test image are available to download (pos020.tif & patc
 We show a reduced, png-version comparison below, where the left image was generated with `predict.py` and the right one with `predict_patchify.py` (with the same `export.pkl` file):
 
 ![Comparison](https://github.com/mathisgentine/super_resolution/blob/master/Output_comparison.png)
+
+Library requirements are given in `requirements.txt`.
